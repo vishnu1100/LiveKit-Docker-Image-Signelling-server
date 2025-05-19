@@ -1,0 +1,10 @@
+port: 7880
+rtc:
+  use_mdns: false
+  port_range_start: 5000
+  port_range_end: 6000
+  use_external_ip: true
+  enable_stun: true
+
+keys:
+  devkey: secret
